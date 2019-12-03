@@ -1,4 +1,6 @@
-class Aluno(Pessoa):
+from Pessoa import Pessoa
+
+class Professor(Pessoa):
     def __init__(self, nome, sobrenome, codigo):
         super().__init__(nome, sobrenome)
         self.codigo = codigo
@@ -7,4 +9,7 @@ class Aluno(Pessoa):
         return self.codigo
       
     def set_codigo(self, codigo): 
-        self.codigo = codigo 
+        self.codigo = codigo
+
+    def mostrar_informacoes(self):
+        print("Nome: "+self.nome + ", Sobrenome: " + self.sobrenome+", Código: " + self.codigo)
