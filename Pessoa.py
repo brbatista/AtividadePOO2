@@ -1,4 +1,4 @@
-class Cliente(object):
+class Pessoa(object):
     def __init__(self, nome, sobrenome):
         self.nome = nome
         self.sobrenome = sobrenome
@@ -14,3 +14,6 @@ class Cliente(object):
       
     def set_sobrenome(self, sobrenome): 
         self.sobrenome = sobrenome 
+
+    def mostrar_informacoes(self):
+        print("Nome: "+self.nome + ", Sobrenome: " + self.sobrenome)
