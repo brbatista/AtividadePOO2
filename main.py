@@ -1,6 +1,6 @@
-from Pessoa import Pessoa
-from Aluno import Aluno
-from Professor import Professor
+from Classes.Pessoa import Pessoa
+from Classes.Aluno import Aluno
+from Classes.Professor import Professor
 
 
 pessoa = Pessoa("nome_pessoa", "sobrenome_pessoa")
