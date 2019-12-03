@@ -3,9 +3,9 @@ from Classes.Aluno import Aluno
 from Classes.Professor import Professor
 
 
-pessoa = Pessoa("nome_pessoa", "sobrenome_pessoa")
-aluno = Aluno("nome_aluno", "sobrenome_aluno", "matricula")
-professor = Professor("nome_professor", "sobrenome_professor", "codigo_professor")
+pessoa = Pessoa("Armando, "Pinto")
+aluno = Aluno("Eva, "Gina", "19872")
+professor = Professor("Jose", "Antonio", "2424")
 
 
 pessoa.mostrar_informacoes()
