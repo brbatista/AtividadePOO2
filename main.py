@@ -3,8 +3,8 @@ from Classes.Aluno import Aluno
 from Classes.Professor import Professor
 
 
-pessoa = Pessoa("Armando, "Pinto")
-aluno = Aluno("Eva, "Gina", "19872")
+pessoa = Pessoa("Armando", "Pinto")
+aluno = Aluno("Eva", "Gina", "19872")
 professor = Professor("Jose", "Antonio", "2424")
 
 
